@@ -156,6 +156,12 @@ body .sect{
       padding: -5em;
 }
 /* 4 */
+.carousel{
+      /* background-color: #A0A0A0; */
+      height: 30em;
+      padding: 2em;
+}
+
 .four .prod h2{
       font-weight: bolder;
 }
@@ -176,74 +182,43 @@ body .sect{
       color: white;
       text-decoration: none;
 }
-.imgpost{
-      padding: -1em;
-      margin: -3em;
-      border-spacing: 2em;
+.four .carou .forr{
+      margin: -1em;
+      padding: 3em 5em 4em 1em;
+      width: 70em;
 }
-.imgpost .img{
-      padding: 6em;
-      width: 1em;
-      height: 3em;
-      border-radius: 10px;
-      background: #B3B3B3;
-}
-.imgpost .img:hover{
-      border-radius:10px 10px 0px 0px;
-      cursor: pointer;
-      transform: scale(0.7,0.8);
+.four .carou .forr .imgprod{
+      padding: 4.5em;
+      width: 3.2em;
+      height: 6em;
+      border-radius: 10px 10px 0 0;
+      background: #B3B3B3 0% 0% no-repeat padding-box;
 
 }
-.imgpost h5:hover{
-      color:white;
-      width: 9.4em;
-      font-weight: normal; 
-      box-shadow: 0px 10px 30px #0000000D; 
-      border-radius: 0px 0px 10px 10px;
-      background: transparent linear-gradient(to right, #55A630, #007F5F);
-      transform: scale(0.9,0.8);
+
+.four .carou .forr .imgprod:hover{
+      transform: scale(.7,.9);
+      background: #FFFFFF;
+      border: inset outset;
 }
-.imgpost h6:hover{
-      color: white;
+.four .carou .forr h5 , .four .carou .forr h6{
+      padding-top: 6px;
+}
+.four .carou .forr h5:hover{
+      background: transparent linear-gradient(278deg, #007F5F 0%, #55A630 100%) 0% 0% no-repeat padding-box;
       width: 10em;
-      height: 1.5em;
-      font-weight: normal; 
-      box-shadow: 0px 10px 30px #0000000D; 
-      border-radius: 0px 0px 10px 10px;
-      background: transparent linear-gradient(to right, #55A630, #007F5F);
-      transform: scale(0.9,0.8);
-
+      height: 2em;
+      border-radius: 0 0 10px 10px;
+      color: #FFFFFF;
+}
+.four .carou .forr h6:hover{
+      background: transparent linear-gradient(278deg, #007F5F 0%, #55A630 100%) 0% 0% no-repeat padding-box;
+      width: 11.4em;
+      height: 2em;
+      border-radius: 0 0 10px 10px;
+      color: #FFFFFF;
 }
 
-.imgpost H5{
-      padding: .5em;
-      width: 9em;
-      border-radius: 10px;
-}
-.imgpost h6{
-      padding: .3em;
-      font-size: 1.2em;
-}
-.imgpost .arrow{
-      margin: -4em;
-}
-.imgpost .arrow i:hover{
-      transform: scale(1.2,0.8);
-      /* background: rgb(80, 238, 49); */
-      color: #2B9348;
-      cursor: pointer;
-}
-.imgpost .arrow i{
-      padding: 1em;
-      margin: 6em 2em;
-      width: 1em;
-      height: 5%;
-      border: 2px solid #007F5F;
-      border-radius: 3px;
-}
-.imgpost .arrow{
-      padding: 2em;
-}
 
 /* 5th */
 .five{
